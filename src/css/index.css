@@ -1,0 +1,232 @@
+
+.header {
+  margin: 40px;
+}
+
+.header--icon {
+  color: var(--white-color);
+  font-size: 40px;
+}
+
+.header--icon__white{
+  color: white ;
+  font-size: 180px;
+  background-color: transparent;
+}
+
+.main--first-section{
+  margin-left: 35px;
+}
+.main--titles{
+  margin: 20px 0px 0px 0px;
+  line-height: 50px;
+  /* text-indent: 30px; */
+}
+
+.titles--title1{
+  font-size: 4rem;
+  margin-bottom: 30px;
+  word-spacing: 3px;
+  /* width: 300px;  */
+  overflow-wrap: break-word;
+  min-width: 0px;
+}
+
+.titles--title2{
+  font-size: 2.5rem;
+}
+
+.main--buttons {
+  width: 80%;
+  
+} 
+
+.main--button {
+  padding: 10px;
+  border: 0;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 10px 0 10px 0;
+  width: 300px;
+  height: 38px;
+  font-weight: bold;
+
+}
+
+.main--button span {
+
+  
+  background-color: white;
+
+  
+  
+}
+
+.main--button img {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  
+
+}
+
+.main--button__google{
+  margin: -1px 5px -4px -2px;
+}
+
+.main--button__apple{
+  margin: -1px 5px -4px -2px;
+}
+
+
+
+.main--button__white{
+  color: var(--font--botton);
+  background-color: white;
+  display: block;
+  
+
+}
+
+.main--button__blue {
+  background-color: var(--brand-color);
+  color: white;
+
+}
+
+.main--button__black {
+  background-color: var(--black);
+}
+
+.main--division {
+  /* text-align: center; */
+  text-align: center;
+  width: 300px;
+  /* margin: 0 auto; */
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.main--division div {
+  width: 45%;
+  border: 1px solid var(--font--botton);
+}
+.main--text{
+  font-size: 1rem;
+  color: #71767b;
+}
+
+.main--small-letters{
+  margin: -5px 0px 10px 0px;
+  width: 300px;
+  
+}
+
+.text--link{
+  color: var(--brand-color);
+}
+
+.main--sign-in{
+  margin: 15px 0px 30px 0px;
+  
+  font-size: 1.4rem;
+}
+
+.main--sign-in h3 {
+  margin: 50px 0px 5px 0px;
+}
+
+.main--button__black {
+  border: 2px solid var(--font--botton);
+  color: var(--brand-color);
+  
+}
+
+.main--background{
+  width: 100%;
+  height: 50vh;
+  background-image: url(../images/backgroundTwitter.png);
+  /* background-size: cover;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main--background span i{
+  background-color: transparent;
+}
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  font-size: 12px;
+  color: var(#536471);
+  
+}
+
+.footer--list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.footer--list li{
+  margin: 5px 10px;
+  
+}
+
+.footer .footer--list .footer--list__Item {
+  color: #71767b;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .header--icon__white{  
+    font-size: 300px;
+  }
+
+
+  .helper{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .main{
+    display: flex;
+    align-items: center;
+
+  }
+
+  .main--background  {
+    width: 55%;  
+    height: 100vh;
+  }
+
+  .helper--content{
+    width: 45%;
+  }
+
+  .titles--title1{
+    font-size: 6.3rem;
+    margin-bottom: 50px;
+    /* word-spacing: 3px; */
+    /* width: 300px;  */
+    /* overflow-wrap: break-word; */
+    /* min-width: 0px; */
+  }
+
+  .titles--title2{
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+  }
+
+  
+
+}

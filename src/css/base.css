@@ -1,0 +1,33 @@
+:root {
+  --white-color: #d6d9db;
+  --black: #000000;
+  --brand-color: #1d9bf0;
+  --font--botton: #1b2025;
+}
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif ;
+  color: var(--white-color);
+}
